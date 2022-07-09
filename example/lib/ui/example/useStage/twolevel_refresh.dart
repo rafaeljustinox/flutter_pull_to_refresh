@@ -63,9 +63,9 @@ class _TwoLevelExampleState extends State<TwoLevelExample> {
                 },
                 items: [
                   BottomNavigationBarItem(
-                      icon: Icon(Icons.add), title: Text("二级刷新例子1")),
+                      icon: Icon(Icons.add), label: "ExampleSec1"),
                   BottomNavigationBarItem(
-                      icon: Icon(Icons.border_clear), title: Text("二级刷新例子2"))
+                      icon: Icon(Icons.border_clear), label: "ExampleSec2")
                 ],
               )
             : null,
